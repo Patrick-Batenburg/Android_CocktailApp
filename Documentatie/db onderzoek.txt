@@ -1,0 +1,23 @@
+tbl_cocktails
+    _id
+    name
+    description
+    thumbnail
+
+tbl_recipes
+    _id
+    name
+    description
+    thumbnail
+
+tbl_r_rules
+    _id
+    _quantity
+    ingridients
+
+tbl_users
+    _id
+    birthday*
+    name
+    password
+

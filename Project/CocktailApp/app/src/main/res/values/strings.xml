@@ -2,12 +2,34 @@
     <string name="app_name">CocktailApp</string>
 
     <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="text_sign_in">Existing account?</string>
-    <string name="action_sign_up">Sign up</string>
-    <string name="action_sign_up_short">Sign up</string>
-    <string name="text_sign_up">Register new account.</string>
+    <string name="activity_login_action_sign_up">Sign up</string>
+    <string name="activity_login_action_sign_up_short">Sign up</string>
+    <string name="activity_login_action_sign_in">Sign in</string>
+    <string name="activity_login_action_sign_in_short">Sign in</string>
+    <string name="activity_login_text_sign_in">Existing users</string>
+    <string name="activity_login_text_sign_up">Don\u0027t have an account?</string>
+    <string name="activity_login_text_welcome">Welcome</string>
+
+    <!-- Strings related to sign in -->
+    <string name="activity_sign_in_title">Sign in</string>
+    <string name="activity_sign_in_prompt_email">Email</string>
+    <string name="activity_sign_in_prompt_password">Password</string>
+    <string name="activity_sign_in_error_sign_in_field">Invalid email or password</string>
+    <string name="activity_sign_in_error_empty_email">Fill in your email</string>
+    <string name="activity_sign_in_error_empty_password">Fill in your password</string>
+    <string name="activity_sign_in_action_sign_in">Sign in</string>
+    <string name="activity_sign_in_action_sign_in_short">Sign in</string>
+    <string name="activity_sign_in_permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="activity_sign_in_forgot_credentials"><u>Forgot username or password?</u></string>
+
+    <!-- Strings related to sign up -->
+    <string name="activity_sign_up_title">Sign up</string>
+    <string name="activity_sign_up_prompt_email">Email</string>
+    <string name="activity_sign_up_prompt_password">Password</string>
+    <string name="activity_sign_up_prompt_confirm_password">Confirm password</string>
+    <string name="activity_sign_up_prompt_username">Username</string>
+    <string name="activity_sign_up_error_taken_username">The name is already taken.</string>
+    <string name="activity_sign_up_error_sign_up_field">Correct the following error: </string>
+    <string name="activity_sign_up_action_sign_up">Sign up</string>
+    <string name="activity_sign_up_action_sign_up_short">Sign up</string>
 </resources>

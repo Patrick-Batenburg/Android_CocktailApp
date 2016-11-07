@@ -1,13 +1,10 @@
 package com.example.cocktailapp;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-
-import static android.R.attr.value;
 
 public class LoginActivity extends AppCompatActivity
 {
@@ -16,25 +13,23 @@ public class LoginActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu)
-    {
-        getMenuInflater().inflate(R.menu.menu_login, menu);
-        return true;
+        getSupportActionBar().setTitle("Login");
     }
 
     public void signIn(View view)
     {
         Intent intent = new Intent(this, SignInActivity.class);
         startActivity(intent);
+
+        //Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(""));
+        //startActivity(browserIntent);
+
     }
 
     public void signUp(View view)
     {
-
+        Intent intent = new Intent(this, SignUpActivity.class);
+        startActivity(intent);
     }
-
 }
 
